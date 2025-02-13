@@ -20,6 +20,34 @@
   color: #323f4b;
   font-family: "Roboto";
 }
+#navItem5 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem6 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+.auth-buttons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.auth-buttons .btn {
+  text-decoration: none;
+  background: white;
+  color: #d92323;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.auth-buttons .btn:hover {
+  background: #b81b1b;
+  color: white;
+}
 .banner-section-bg-container {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
   height: 100vh;
