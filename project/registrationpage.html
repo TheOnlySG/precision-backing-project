@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crextio - Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="close-button">×</div>
+            <div class="signup-section">
+                <div class="logo">BAKECATALYST</div>
+                <h1>Create an account</h1>
+                <p class="subtitle">Sign up and get 30 day free trial</p>
+                
+                <form id="signupForm">
+                    <div class="form-group">
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" placeholder="Amélie Laurent">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="amélielaurent7622@gmail.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-input">
+                            <input type="password" id="password" placeholder="••••••••••••••••">
+                            <button type="button" class="toggle-password">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit</button>
+                    
+                    <div class="social-login">
+                        <button type="button" class="social-btn apple">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.52-3.2 0-1.44.71-2.23.51-3.11-.41C3.21 15.64 3.85 8.37 8.86 8.06c1.49-.09 2.62.54 3.5 1.07.8.48 1.37.57 2.37 0 1.17-.67 2.31-1.09 3.73-.84 1.43.25 2.57.99 3.25 2.13-3.12 1.99-2.59 6.73.24 8.35-.71 1.06-1.5 2.07-2.9 1.51zM15.53 6.55c-.81-1.02-1.9-1.71-3.12-1.67-1.05 3.04 2.63 4.19 3.12 1.67z"/>
+                            </svg>
+                            Apple
+                        </button>
+                        <button type="button" class="social-btn google">
+                            <svg width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                            </svg>
+                            Google
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="footer">
+                    <p>Have any account? <a href="login.html" class="sign-in">Sign in</a></p>
+                    <a href="#" class="terms">Terms & Conditions</a>
+                </div>
+            </div>
+            
+            <div class="calendar-section">
+                <img src="https://plus.unsplash.com/premium_photo-1673111978980-5734806548f2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team meeting">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
