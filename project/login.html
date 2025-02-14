@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crextio - Login</title>
+    <title>BAKECATALYST - Login</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAXdW-t-07TJU2FniwjMr1Ee7E1UEEDC3A",
+          authDomain: "login-and-registration-p-e839a.firebaseapp.com",
+          projectId: "login-and-registration-p-e839a",
+          storageBucket: "login-and-registration-p-e839a.firebasestorage.app",
+          messagingSenderId: "960821176141",
+          appId: "1:960821176141:web:20beda5594c0622b613904",
+          measurementId: "G-WCXLF7J8DG"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </head>
 <body>
     <div class="container">
@@ -42,7 +65,7 @@
                         <a href="#" class="forgot-password">Forgot password?</a>
                     </div>
                     
-                    <button type="submit" class="submit-btn">Sign in</button>
+                    <button onclick="loginUser()" type="submit" class="submit-btn">Sign in</button>
                     
                     <div class="social-login">
                         <button type="button" class="social-btn apple">
